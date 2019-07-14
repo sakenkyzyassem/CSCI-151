@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1547617870 source:c:\codeb workspace\c++\main.cpp
+	<iostream>
+
+1547615484 c:\codeb workspace\c++\string.h
+	<iostream>
+	<cstring>
+

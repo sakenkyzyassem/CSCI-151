@@ -1,0 +1,3 @@
+sta
+Astana 1 Not_Palindrome
+stata 1 Is_Palindrome
