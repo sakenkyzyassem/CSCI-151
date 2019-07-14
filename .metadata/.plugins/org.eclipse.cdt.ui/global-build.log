@@ -1,0 +1,36 @@
+17:07:44 **** Rebuild of configuration Debug for project Graphing project ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ezdib.o "..\\ezdib.c" 
+..\ezdib.c: In function 'ezd_line':
+..\ezdib.c:773:24: warning: unused variable 'xm' [-Wunused-variable]
+..\ezdib.c:772:23: warning: unused variable 'c' [-Wunused-variable]
+..\ezdib.c:819:8: warning: suggest explicit braces to avoid ambiguous 'else' [-Wparentheses]
+..\ezdib.c: In function 'ezd_arc':
+..\ezdib.c:999:8: warning: suggest explicit braces to avoid ambiguous 'else' [-Wparentheses]
+..\ezdib.c: In function 'ezd_fill_rect':
+..\ezdib.c:1125:9: warning: suggest explicit braces to avoid ambiguous 'else' [-Wparentheses]
+..\ezdib.c: In function 'ezd_find_glyph':
+..\ezdib.c:1608:3: warning: array subscript has type 'char' [-Wchar-subscripts]
+..\ezdib.c:1608:3: warning: pointer targets in return differ in signedness [-Wpointer-sign]
+..\ezdib.c: In function 'ezd_load_font':
+..\ezdib.c:1683:3: warning: pointer targets in passing argument 1 of 'ezd_next_glyph' differ in signedness [-Wpointer-sign]
+..\ezdib.c:1582:13: note: expected 'const char *' but argument is of type 'const unsigned char *'
+..\ezdib.c:1683:10: warning: pointer targets in assignment differ in signedness [-Wpointer-sign]
+..\ezdib.c: In function 'ezd_text_size':
+..\ezdib.c:1743:10: warning: pointer targets in assignment differ in signedness [-Wpointer-sign]
+..\ezdib.c: In function 'ezd_draw_bmp_cb':
+..\ezdib.c:1806:23: warning: unused variable 'xm' [-Wunused-variable]
+..\ezdib.c:1805:16: warning: unused variable 'b' [-Wunused-variable]
+..\ezdib.c:1804:16: warning: unused variable 'g' [-Wunused-variable]
+..\ezdib.c:1803:16: warning: unused variable 'r' [-Wunused-variable]
+..\ezdib.c: In function 'ezd_draw_bmp_1':
+..\ezdib.c:1862:7: warning: suggest explicit braces to avoid ambiguous 'else' [-Wparentheses]
+..\ezdib.c:1848:16: warning: unused variable 'b' [-Wunused-variable]
+..\ezdib.c:1847:16: warning: unused variable 'g' [-Wunused-variable]
+..\ezdib.c:1846:16: warning: unused variable 'r' [-Wunused-variable]
+..\ezdib.c: In function 'ezd_text':
+..\ezdib.c:2001:10: warning: pointer targets in assignment differ in signedness [-Wpointer-sign]
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o "Graphing project.exe" ezdib.o main.o 
+Info: Nothing to build for final
+Info: Nothing to build for Graphing project

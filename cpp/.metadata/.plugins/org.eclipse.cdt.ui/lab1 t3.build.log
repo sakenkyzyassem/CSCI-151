@@ -1,0 +1,7 @@
+09:49:18 **** Incremental Build of configuration Debug for project lab1 t3 ****
+Info: Internal Builder is used for build
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -o "l1 t3.o" "..\\l1 t3.cpp" 
+cc1plus.exe: error: unrecognized command line option '-std=c++11'
+
+09:49:19 Build Finished. 0 errors, 0 warnings. (took 306ms)
+

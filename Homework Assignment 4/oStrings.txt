@@ -1,0 +1,3 @@
+ana
+nonononononon	0	Is_Palindrome
+

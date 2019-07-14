@@ -1,0 +1,4 @@
+#Mon Jan 14 09:17:25 ALMT 2019
+__DEFAULT__=false
+org.eclipse.help.ui.localSearch.master=true
+expression=update
