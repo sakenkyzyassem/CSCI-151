@@ -36,7 +36,7 @@ int binarySearch(int x[], int size, int key) {
 int main(void){
     setvbuf(stdout, NULL, _IONBF, 0);
 
-    int arr[10]={-50, 0, 25, -80, 90, 10, 65, -100, 74, 2};
+    int arr[10]={-100, -80, -20, 10, 15, 20, 50, 85, 90, 100};
 
     printf("%i", binarySearch(arr, 10, -80));
 

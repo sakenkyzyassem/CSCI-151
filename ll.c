@@ -72,7 +72,3 @@ int main()
 		printf( "%s", p->word ); 
 
 }
-
-
-
-
